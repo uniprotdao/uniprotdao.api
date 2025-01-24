@@ -1,0 +1,24 @@
+**/*entries.error
+**/.settings
+**/.project
+**/.classpath
+**/*.idea
+**/*.iml
+**/target
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+**/.DS_Store
+.gitlab-ci.yml
+# Pending modules
+/benchmark-rest/
+/jacoco-aggregate-report/
+/help-centre-rest/
+/unisave-rest/
+/aa-rest/
+/doc

@@ -1,0 +1,53 @@
+package org.uniprot.api.uniparc.common.service.filter;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+import org.uniprot.core.uniparc.UniParcCrossReference;
+import org.uniprot.core.uniparc.UniParcDatabase;
+import org.uniprot.store.indexer.uniparc.mockers.UniParcCrossReferenceMocker;
+
+/**
+ * @@author uniprotdao
+ *
+
+ */
+class UniParcDatabaseStatusFilterTest {
+
+    private static UniParcDatabaseStatusFilter uniParcDatabaseStatusFilter;
+
+    @BeforeAll
+    static void setUp() {
+        uniParcDatabaseStatusFilter = new UniParcDatabaseStatusFilter();
+    }
+
+    @Test
+    void testFilterByNullStatusReturnTrue() {
+        UniParcCrossReference activeXref =
+                UniParcCrossReferenceMocker.createUniParcCrossReference(
+                        UniParcDatabase.EMBL, "AC12345", 9606, true);
+        // filter by status
+        boolean result = uniParcDatabaseStatusFilter.apply(activeXref, null);
+        Assertions.assertTrue(result);
+    }
+
+    @Test
+    void testFilterByStatusNotFoundReturnFalse() {
+        UniParcCrossReference activeXref =
+                UniParcCrossReferenceMocker.createUniParcCrossReference(
+                        UniParcDatabase.EMBL, "AC12345", 9606, false);
+        // filter by status
+        boolean result = uniParcDatabaseStatusFilter.apply(activeXref, true);
+        Assertions.assertFalse(result);
+    }
+
+    @Test
+    void testFilterByStatusFoundReturnTrue() {
+        UniParcCrossReference activeXref =
+                UniParcCrossReferenceMocker.createUniParcCrossReference(
+                        UniParcDatabase.EMBL, "AC12345", 9606, false);
+        // filter by status
+        boolean result = uniParcDatabaseStatusFilter.apply(activeXref, false);
+        Assertions.assertTrue(result);
+    }
+}
