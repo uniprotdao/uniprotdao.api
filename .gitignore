@@ -19,6 +19,4 @@ buildNumber.properties
 /benchmark-rest/
 /jacoco-aggregate-report/
 /help-centre-rest/
-/unisave-rest/
-/aa-rest/
 /doc

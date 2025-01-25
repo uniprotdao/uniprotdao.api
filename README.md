@@ -32,9 +32,9 @@ The project is divided into several modules to manage different aspects of the d
   - `support-data-common`, `support-data-rest`
   - `async-download-rest`
   - `proteome-rest`
-- **Pending Modules**:
   - `unisave-rest` (versioning)
   - `aa-rest` (amino acid data)
+- **Pending Modules**:
   - `help-centre-rest` (support/help functionality)
   - `benchmark-rest` (benchmarking)
   - `jacoco-aggregate-report` (test coverage reporting)

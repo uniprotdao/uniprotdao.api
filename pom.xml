@@ -72,9 +72,9 @@
     <module>async-download-rest</module>
     <module>support-data-rest</module>
     <module>proteome-rest</module>
+    <module>aa-rest</module>
+    <module>unisave-rest</module>
     <!-- Pending modules -->
-    <!-- <module>unisave-rest</module> -->
-    <!-- <module>aa-rest</module> -->
     <!-- <module>help-centre-rest</module> -->
     <!-- <module>benchmark-rest</module> -->
     <!-- <module>jacoco-aggregate-report</module> -->
