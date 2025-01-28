@@ -1,0 +1,2 @@
+organism_url#organism_format
+/uniprot/api/uniprotkb/search?query=organism_name:Salmonella dublin#application/json

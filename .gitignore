@@ -16,7 +16,6 @@ buildNumber.properties
 **/.DS_Store
 .gitlab-ci.yml
 # Pending modules
-/benchmark-rest/
 /jacoco-aggregate-report/
 /help-centre-rest/
 /doc

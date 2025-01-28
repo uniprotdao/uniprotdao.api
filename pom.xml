@@ -74,9 +74,9 @@
     <module>proteome-rest</module>
     <module>aa-rest</module>
     <module>unisave-rest</module>
+    <module>benchmark-rest</module>
     <!-- Pending modules -->
     <!-- <module>help-centre-rest</module> -->
-    <!-- <module>benchmark-rest</module> -->
     <!-- <module>jacoco-aggregate-report</module> -->
 </modules>
 
