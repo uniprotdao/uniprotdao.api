@@ -1,5 +1,6 @@
 package org.uniprot.benchmark.idmapping;
 
+
 import static org.springframework.http.MediaType.APPLICATION_FORM_URLENCODED;
 import static org.springframework.http.MediaType.APPLICATION_JSON;
 
