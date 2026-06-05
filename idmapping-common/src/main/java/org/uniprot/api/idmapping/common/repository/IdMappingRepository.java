@@ -1,5 +1,6 @@
 package org.uniprot.api.idmapping.common.repository;
 
+
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
