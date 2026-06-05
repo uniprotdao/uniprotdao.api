@@ -2,6 +2,8 @@
 
 This project aims to provide **metabolism-specific protein api** based on individual metabolic characteristics. It is an open-source initiative designed to enhance research and analysis in protein metabolism.
 
+CA: Bs7tcJJat459bAQMtkDSjyieAXtFGNrNtpr27xfbpump
+
 ## Objectives
 
 ### Phase 1: Open Source Database
