@@ -1,5 +1,6 @@
 package org.uniprot.api.aa.repository;
 
+
 import org.apache.solr.client.solrj.SolrClient;
 import org.springframework.stereotype.Repository;
 import org.uniprot.api.common.repository.search.SolrQueryRepository;
